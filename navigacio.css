@@ -10,15 +10,17 @@ nav a {
     list-style-type: none;
     padding: 15px;
 }
-#home:hover, #menu:hover {
+#home:hover {
     background-color: red;
 }
 footer nav {
     padding: 0;
     background-color: white;
+    width: 50%;
+    margin: auto;
+    border: 1px solid black ;
 }
 footer nav a {
     color: black;
-    display: flex;
-    justify-content: center;
 }
+
